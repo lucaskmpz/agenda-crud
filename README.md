@@ -1,10 +1,10 @@
 # CRUD Agenda Application
 
-**Overview:**
+The CRUD Agenda Application is a simple web application that allows users to manage their contacts. Users can sign up, log in, add, edit, and delete contacts. This README provides an overview of the application, the technologies used, prerequisites to run it, setup instructions, and how it works.
 
-The CRUD Agenda Application is a simple web application that enables users to manage their contacts. Users can sign up, log in, add, edit, and delete contacts. This README provides an overview of the application, lists the technologies used, outlines prerequisites, provides setup instructions, and explains how the application works.
+## Technologies Used
 
-**Technologies Used:**
+The CRUD Agenda Application is built using the following technologies and frameworks:
 
 - Node.js
 - Express.js
@@ -15,16 +15,16 @@ The CRUD Agenda Application is a simple web application that enables users to ma
 - EJS for templating
 - Flash messages for user feedback
 
-**Prerequisites:**
+## Prerequisites
 
-Before you begin, ensure you have the following prerequisites installed:
+Before running the CRUD Agenda Application, ensure you have the following prerequisites installed:
 
 - Node.js and npm: [Install Node.js](https://nodejs.org/)
 - MongoDB (or your preferred database): [Install MongoDB](https://www.mongodb.com/try/download/community)
 
-**Setup:**
+## Setup
 
-Setting up the application:
+To set up and run the CRUD Agenda Application, follow these steps:
 
 1. **Clone the Repository:**
 
@@ -65,14 +65,14 @@ Setting up the application:
 
    The application will run on `http://localhost:3000` by default. You can access it in your web browser.
 
-**How It Works:**
+## How It Works
 
-Application functionality:
+The CRUD Agenda Application allows users to perform the following actions:
 
-- Registration: Users can sign up for an account with their credentials.
-- Login: Registered users can log in to their accounts securely.
-- Contact Management: Users can add, edit, and delete contact information, including name, lastname, email, and phone.
-- User Authentication: The application ensures secure user authentication and authorization.
-- Session Management: User sessions are maintained for a seamless experience.
-- Flash Messages: Users receive informative flash messages for successful and unsuccessful operations.
-- Logout: Users can log out of their accounts securely.
+- **Registration:** Users can sign up for an account with their credentials.
+- **Login:** Registered users can log in to their accounts securely.
+- **Contact Management:** Users can add, edit, and delete contact information, including name, lastname, email, and phone.
+- **User Authentication:** The application ensures secure user authentication and authorization.
+- **Session Management:** User sessions are maintained for a seamless experience.
+- **Flash Messages:** Users receive informative flash messages for successful and unsuccessful operations.
+- **Logout:** Users can log out of their accounts securely.
